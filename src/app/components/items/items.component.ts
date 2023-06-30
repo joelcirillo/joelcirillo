@@ -28,4 +28,7 @@ export class ItemsComponent implements OnInit {
       }
     ]
   }
+  deleteItem(item:Item){
+    this.items= this.items.filter(x=> x.id != item.id);
+  }
 }
