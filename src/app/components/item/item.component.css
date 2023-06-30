@@ -23,7 +23,13 @@ div{
     padding: 5px;
     color:#04EC94;
 }
-.actions{
+button{
+    padding: .375rem .75rem;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    color: #007bff;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
     width: 10%;
     text-align: center;
     box-sizing: border-box;
