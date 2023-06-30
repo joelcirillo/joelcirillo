@@ -2,6 +2,13 @@
     display:flex;
     box-sizing: border-box;
 }
+.completed{
+    color: #54718D;
+    text-decoration: line-through;
+}
+.completed .total{
+    color: #54718D;
+}
 div{
     padding: 5px 0;
 }
@@ -25,13 +32,10 @@ div{
 }
 button{
     padding: .375rem .75rem;
-    border: 1px solid #007bff;
+    border: 1px solid #B41414;
     border-radius: .25rem;
-    color: #007bff;
+    color: #B41414;
     transition: color .15s ease-in-out,
     background-color .15s ease-in-out;
-    width: 10%;
-    text-align: center;
-    box-sizing: border-box;
-    padding:5px;
+    
 }
