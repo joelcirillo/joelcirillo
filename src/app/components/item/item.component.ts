@@ -13,6 +13,6 @@ export class ItemComponent implements OnInit{
 
   }
   onDelete(item:Item){
-
+    this.deleteItem.emit(item);
   }
 }
