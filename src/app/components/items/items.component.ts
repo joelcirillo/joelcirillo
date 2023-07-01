@@ -9,11 +9,12 @@ import { ItemService } from "../../services/item.service";
 export class ItemsComponent implements OnInit {
   items:Item[] = [];
   total: number =0;
-  constructor() {
+  constructor(private itemService:ItemService) {
     
   }
   ngOnInit(): void {
-    //this.items=[];
+
+    this.itemService.getItems();
     this.getTotal();
   }
   deleteItem(item:Item){
