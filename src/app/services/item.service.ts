@@ -4,28 +4,15 @@ import { Item } from "../models/item";
   providedIn: 'root'
 })
 export class ItemService {
-  item:Item[]=[];
+  items:Item[]=[
+    
+  ];
   constructor() { }
   getItems(){
-    this.item=[
-      
-      {
-        id:0,
-        title: 'manzana',
-        price: 10.5,
-        quantity:4,
-        completed:false
-      },
-      {
-        id:1,
-        title: 'pan',
-        price: 3.5,
-        quantity:8,
-        completed:true
-      }
-    ]
+   
+    return this.items
   }
   addItem(item:Item){
-    this.item.unshift(item);
+    this.items.unshift(item);
   }
 }
