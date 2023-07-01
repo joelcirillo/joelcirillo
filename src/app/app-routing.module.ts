@@ -9,7 +9,7 @@ const routes: Routes = [
     component:ItemsComponent
   },
   {
-    path:'/add',
+    path:'add',
     component:AdditemComponent
   }
 ];
