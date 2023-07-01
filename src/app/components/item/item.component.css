@@ -2,6 +2,9 @@
     display:flex;
     box-sizing: border-box;
 }
+.row:hover{
+    background: #ccc;
+}
 .completed{
     color: #54718D;
     text-decoration: line-through;

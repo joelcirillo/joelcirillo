@@ -1,0 +1,17 @@
+menu{
+    background:#411FA7 ;
+    padding: 0;
+    margin: 0;
+}
+menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+menu ul li a{
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px;
+}
