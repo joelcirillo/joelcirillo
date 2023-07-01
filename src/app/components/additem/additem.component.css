@@ -1,0 +1,32 @@
+form{
+    margin: auto;
+    width: 300px;
+    display:block;
+
+}
+form div{
+    padding: 5px;
+
+}
+form label{
+    display:block;
+    padding: 10px;
+}
+form input[type=text]{
+    width: 100%;
+    padding: 5px;
+
+}
+.boton{
+    padding: .375rem .75rem;
+    border: 1px solid #1AB624;
+    border-radius: .25rem;
+    color: #1AB624;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;  
+}
+.boton:hover{
+    transition: 1s;
+    background-color: #1AB624;
+    color: #FFF;
+}
